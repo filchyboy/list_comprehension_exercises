@@ -51,9 +51,10 @@ def dictionary_next():
     print("Ends with Y",[people for people in people if people.endswith("y")])
     print("Ends with Y and Starts with D", [people for people in people if people.endswith("y") and people.startswith("D")])
     # # comp for names that start with B through D
-
-
+    print("Starts with B through D", [people for people in people if people.startswith(("B", "C", "D"))])
     # # comp for names but in uppercase
+    print("Make for Upper Case", [people.upper() for people in people if people.startswith(("B", "C", "D"))])
+
 
 
 # """
